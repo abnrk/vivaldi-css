@@ -1,0 +1,25 @@
+footer {
+	border-top-color: #b1b2b5 !important;
+}
+#header {
+/*	background-color: #e9ebf0 !important; */
+	background: linear-gradient(#e9ebf0,#dfe2e7);
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+}
+#pagetitle {
+	padding: 0px !important;
+}
+#pagetitle span {
+	text-align: center !important;
+}
+.mainbar {
+	background: linear-gradient(#dfe1e8,#d4d6dd);
+}
+.toolbar-statusbar {
+	background: linear-gradient(#e9ebf0,#d4d6dd);
+}
+.UrlBar-AddressField,.UrlBar-SearchField {
+	border-color: #c5c7ce;
+}
