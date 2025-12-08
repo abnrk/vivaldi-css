@@ -1,0 +1,31 @@
+.mainbar {
+	border-bottom-color: #b4c1cc;
+}
+.UrlBar-AddressField,.UrlBar-SearchField {
+	border-width: 0px;
+}
+.UrlBar-AddressField:hover,.UrlBar-SearchField:hover,.UrlBar-AddressField:focus-within,.UrlBar-SearchField:focus-within {
+	outline-width: 0px !important;
+	background-color: #cad7e3;
+}
+.tab .close {
+	background: none;
+}
+.close:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+.close:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.close svg path {
+	d: path("M 3.4802465,3.4802465 12.519754,12.519754 M 12.519754,3.4802454 3.4802465,12.519755");
+	fill: none;
+	stroke: #373a3b;
+	stroke-width: 1px;
+}
+.newtab svg path {
+	d: path("M 8.3130655,14 H 19.686934 M 14,8.3130652 V 19.686935");
+	fill: none;
+	stroke: #3a3d3e;
+	stroke
