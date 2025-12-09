@@ -37,6 +37,7 @@ footer {
 }
 #tabs-container {
 	padding-left: 0px !important;
+	border-bottom: 1px solid #a7a7a7;
 }
 .tab {
 	border-left: 1px solid rgba(0,0,0,0.3);
@@ -44,4 +45,9 @@ footer {
 	border-right: 1px solid rgba(0,0,0,0.3);
 	border-top-left-radius: 5px !important;
 	border-top-right-radius: 5px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+.toolbar-tabbar-before {
+	display: none
 }
