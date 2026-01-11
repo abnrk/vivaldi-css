@@ -1,7 +1,10 @@
 #tabs-tabbar-container {
 	background: linear-gradient(#e0e6ed,#d2d8df);
 }
-#tabs-container {
+#browser.normal #tabs-tabbar-container {
+	border-bottom: 1px solid #c8cbcc;
+}
+#browser.maximized #tabs-container {
 	border-bottom: 1px solid #c8cbcc;
 }
 .tab.active {
@@ -14,4 +17,20 @@
 }
 .UrlBar-AddressField,.UrlBar-SearchField {
 	border-color: #c8cbcc;
+}
+.tab .close {
+	display: flex;
+	background: none;
+}
+.close svg path {
+	d: path("M 3.4802465,3.4802465 12.519754,12.519754 M 12.519754,3.4802454 3.4802465,12.519755");
+	fill: none;
+	stroke: #373a3b;
+	stroke-width: 1px;
+}
+.newtab svg path {
+	d: path("M 8.3130655,14 H 19.686934 M 14,8.3130652 V 19.686935");
+	fill: none;
+	stroke: #3a3d3e;
+	stroke-width: 1px;
 }
