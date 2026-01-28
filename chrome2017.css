@@ -1,0 +1,31 @@
+/* 2017 chrome style theme (but without trapezoid tabs), kind of broken */
+#browser.normal #tabs-tabbar-container {
+	border-bottom: 1px solid #b5b5b5;
+}
+#browser.maximized #tabs-container {
+	border-bottom: 1px solid #b5b5b5;
+}
+.tab {
+	border-left: 1px solid #b5b5b5;
+	border-top: 1px solid #b5b5b5;
+	border-right: 1px solid #b5b5b5;
+}
+.tab:not(.active) {
+	border-left: 1px solid #c5c5c5;
+	border-top: 1px solid #c5c5c5;
+	border-right: 1px solid #c5c5c5;
+	background-color: #dadada !important;
+}
+.mainbar {
+	border-bottom-color: #b6b4b6;
+}
+.UrlBar-AddressField,.UrlBar-SearchField {
+	border-color: #a9a9a9;
+}
+.tab .close {
+	display: flex;
+	background: none;
+}
+.button-toolbar > button:disabled svg {
+	opacity: 0.2;
+}
