@@ -6,7 +6,7 @@
 	border-bottom: 1px solid #c8cbcc;
 }
 */
-#browser.maximized #tabs-container {
+#browser #tabs-container {
 	border-bottom: 1px solid #c8cbcc;
 }
 .tab.active {
