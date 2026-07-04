@@ -1,9 +1,11 @@
 #tabs-tabbar-container {
 	background: linear-gradient(#e0e6ed,#d2d8df);
 }
+/*
 #browser.normal #tabs-tabbar-container {
 	border-bottom: 1px solid #c8cbcc;
 }
+*/
 #browser.maximized #tabs-container {
 	border-bottom: 1px solid #c8cbcc;
 }
